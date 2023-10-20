@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const newRequest = axios.create({
-  baseURL: "http://localhost:8800/api/",
+  baseURL: "https://fiveback-rqwx6.kinsta.app/api/",
   withCredentials: true,
 });
 
